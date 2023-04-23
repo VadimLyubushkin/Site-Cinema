@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(to bottom right, #0066ff 29%, #666699 76%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.searchBlock, .outputBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.searchBlock {
+    margin-bottom: 20px;
+}
+
+.searchBlock input {
+    width: 20vw;
+    height: 2rem;
+}
+
+.searchBlock button, .searchBlock input {
+    font-size: 1.5rem;
+
+}
+
+.outputBlock {
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 300px;
+    height: 490px;
+    font-size: 1.2rem
+}
+
+.card img {
+    width: 300px;
+    height: 445px;
+}
+
+.description {
+    text-align: center;
+}
